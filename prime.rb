@@ -7,7 +7,5 @@ def prime?(number)
       output = false 
     end
     i += 1 
-  end
-  }
   output
 end 
