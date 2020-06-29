@@ -2,11 +2,14 @@
 def prime?(number) 
   i = 2
   output = true
-  while i < number
-    if number % i == 0
-      output = false 
+  if number < 1 
+    output = false 
+  else
+    while i < number
+      if number % i == 0
+        output = false 
+      end
+      i += 1 
     end
-    i += 1 
-  end
   output
 end 
